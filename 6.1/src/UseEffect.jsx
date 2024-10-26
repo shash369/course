@@ -1,3 +1,9 @@
+/**?
+ * useEffect allow you to performe side effects in component 
+ * that cant be done during rendring 
+ * ex:data fetching setTimeout etc
+*   in this yo 
+ */
 import { useEffect, useState } from "react"
 
 export default function Hooks(){
@@ -13,7 +19,6 @@ export default function Hooks(){
     return (
     <>
     {todos.map(e=>
-
         <TodoP key={e.id} val={e} />    
     )}
 
