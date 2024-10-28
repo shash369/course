@@ -26,3 +26,12 @@ fs.rename(path, newPath, (err) => {
         console.log("File renamed successfully");
     }
 });
+
+fs.unlink(path,(err)=>{
+  if (err) {
+    console.log(err);
+  }
+  else{
+    console.log("file is removed");
+  }
+})
