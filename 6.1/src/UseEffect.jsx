@@ -6,13 +6,13 @@
  */
 import { useEffect, useState } from "react"
 
-export default function Hooks(){
+export default function UseefHook(){
   const [todos,setTodo]=useState([]);
   const [counter,setCount]=useState(1);
 
    useEffect(()=>{
     fetch('https://dummyjson.com/todos/random')
-    .then(res => res.json())
+    .then(res=>res.json())
     .then(data=>setTodo([data]));
    },[counter])
 

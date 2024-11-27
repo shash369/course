@@ -24,7 +24,7 @@ export default function Keys(){
    const newTodo={
     id:todos.length+1,
     title:Math.random(),
-    descrption:Math.random()
+    descrption:`new data ${todos.length+1}`
    }
    setTodo([...todos,newTodo]);
   }
