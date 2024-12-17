@@ -7,6 +7,9 @@ import Keys from './Keys.jsx'
 import Wrapper from './Wrappre.jsx'
 import UseefHook from'./UseEffect.jsx'
 import AxiosUseefect from './axiosUseeffect.jsx'
+import Try from './Try.jsx'
+import UseCallBack from './useCallBack.jsx'
+import Usememo from './Usememo.jsx'
 
 createRoot(document.getElementById('root')).render(
   <>
@@ -17,5 +20,10 @@ createRoot(document.getElementById('root')).render(
     {/* <Wrapper /> */}
     {/* <UseefHook /> */}
     {/* <AxiosUseefect />*/}
+    {/* <Try /> */}
+    {/* <UseCallBack /> */}
+    <Usememo />
+    
+
   </>,
 )
