@@ -4,6 +4,7 @@ import './App.css'
 import Landing from './components/Landing'
 import Dashboard from './components/Dashboard'
 import Navigator from './components/Navigator'
+import Contextapi from './components/Contextapi'
 // import { Suspense } from 'react'
 
 // const Pag=React.lazy(()=>import('./components/About'))
@@ -17,7 +18,7 @@ function App() {
   
   return (
       <>
-      <p>hello</p>
+      {/* <p>hello</p>
        <BrowserRouter>
           <Navigator />
             <Routes>
@@ -29,7 +30,9 @@ function App() {
                }/>
                <Route path='/dashboard' element={<Dashboard/>}/>
             </Routes>
-        </BrowserRouter>
+        </BrowserRouter> */}
+
+        <Contextapi />
       </>
   )
 }
