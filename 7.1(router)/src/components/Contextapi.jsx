@@ -43,6 +43,7 @@ function Buttons({count,setCount}){
       }}>
            decrease counter
       </button>
+      
     </>)
 }
 
